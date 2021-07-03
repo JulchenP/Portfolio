@@ -1,12 +1,32 @@
 :root {
-  --headline-font: "Dela Gothic One", cursive;
+  --headline-font: "roc-grotesk", sans-serif;
   --paragraph-font: "DM Sans", sans-serif;
 }
 
 h1 {
   font-family: var(--headline-font);
+  font-size: 30px;
 }
 
 h2 {
   font-family: var(--paragraph-font);
+  font-size: 21px;
+}
+
+p {
+  font-family: var(--paragraph-font);
+  font-size: 16px;
+}
+
+.hero {
+  text-align: center;
+  height: 600px;
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin-top: 45px;
 }
