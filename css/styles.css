@@ -49,17 +49,6 @@ p {
   padding: 0;
 }
 
-.design,
-.miscellaneous {
-  background-color: var(--secondary-color);
-}
-
-.design,
-.miscellaneous,
-.coding {
-  height: 900px;
-}
-
 .designTeaser,
 .codingTeaser,
 .miscellaneousTeaser {
@@ -67,5 +56,19 @@ p {
 }
 
 .navbar-toggler {
-  border: yellow;
+  border: none;
+}
+
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  transform: rotate(90deg);
+  transition: transform 0.4s ease-in-out;
+}
+
+i {
+  text-align: center;
 }
