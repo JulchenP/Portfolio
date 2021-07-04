@@ -65,7 +65,7 @@ p {
 
 .disciplines {
   background-color: var(--secondary-color);
-  height: 300px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,6 +92,7 @@ i {
 
 footer {
   margin: 80px;
+  display: flex;
 }
 
 .footerText {
@@ -112,4 +113,8 @@ footer {
 
 .imprintLinks a {
   color: black;
+}
+
+.fa-plus {
+  padding: 0;
 }
