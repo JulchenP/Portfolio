@@ -22,8 +22,7 @@ p {
 
 .hero {
   text-align: center;
-  height: 600px;
-  background-color: var(--secondary-color);
+  height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,4 +42,30 @@ p {
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: #ffffff;
+}
+
+.content1 {
+  margin: 0 10px;
+  padding: 0;
+}
+
+.design,
+.miscellaneous {
+  background-color: var(--secondary-color);
+}
+
+.design,
+.miscellaneous,
+.coding {
+  height: 900px;
+}
+
+.designTeaser,
+.codingTeaser,
+.miscellaneousTeaser {
+  padding: 50px;
+}
+
+.navbar-toggler {
+  border: yellow;
 }
