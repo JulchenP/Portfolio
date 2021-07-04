@@ -49,12 +49,6 @@ p {
   padding: 0;
 }
 
-.designTeaser,
-.codingTeaser,
-.miscellaneousTeaser {
-  padding: 50px;
-}
-
 .navbar-toggler {
   border: none;
 }
@@ -69,6 +63,53 @@ p {
   transition: transform 0.4s ease-in-out;
 }
 
+.disciplines {
+  background-color: var(--secondary-color);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 200px;
+}
+
+#disciplines {
+  color: var(--primary-color);
+}
+
 i {
-  text-align: center;
+  padding: 30px;
+  font-size: 31px;
+}
+
+#disciplines:hover {
+  color: red;
+}
+
+.navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer {
+  margin: 80px;
+}
+
+.footerText {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.connectIcons {
+  padding: 0;
+}
+
+#instagram,
+#xing,
+#linkedin {
+  font-size: 25px;
+}
+
+.imprintLinks a {
+  color: black;
 }
